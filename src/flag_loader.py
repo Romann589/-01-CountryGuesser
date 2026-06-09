@@ -15,4 +15,4 @@ for country in countries:
         with open(os.path.join("src", "assets", (file_name + ".png")), "wb") as file:
             file.write(response_.content)
             print(file_name + ".png")
-        print("Downloaded " + file_name + ".png")
+            print("Downloaded " + file_name + ".png")
